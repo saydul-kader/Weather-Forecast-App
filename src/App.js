@@ -80,7 +80,6 @@ class App extends React.Component {
       this.setState({
         city: `${response.name}, ${response.sys.country}`,
         country: response.sys.country,
-        video: Thunderstorm,
         main: response.weather[0].main,
         iconUrl: "http://openweathermap.org/img/w/" + response.weather[0].icon + ".png",
         celsius: this.calCelsius(response.main.temp),
