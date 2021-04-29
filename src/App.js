@@ -81,7 +81,7 @@ class App extends React.Component {
         city: `${response.name}, ${response.sys.country}`,
         country: response.sys.country,
         main: response.weather[0].main,
-        iconUrl: "http://openweathermap.org/img/w/" + response.weather[0].icon + ".png",
+        iconUrl: "https://openweathermap.org/img/w/" + response.weather[0].icon + ".png",
         celsius: this.calCelsius(response.main.temp),
         temp_max: this.calCelsius(response.main.temp_max),
         temp_min: this.calCelsius(response.main.temp_min),
