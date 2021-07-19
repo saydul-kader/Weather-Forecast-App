@@ -11,10 +11,11 @@ Live weather update for 200k+ cities worldwide.
 
 ### NPM Packages
 - Create-React-App
-- Axios
 - React router
 - Weather-icons
 
+### API
+- OpenWeatherMap
 ## Instructions
 
 To run this app in your local environment:
