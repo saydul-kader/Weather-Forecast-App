@@ -7,13 +7,14 @@ form {
 
   form input[name="city"],
   form input[name="country"] {
-    background-color: transparent;
+    background-color: #dcdcde;
+    opacity: 50%;
     color: black;
     border: none;
     width: 100%;
     margin-top: 35px;
     border-bottom: 2px solid whitesmoke;
-    border-radius: 0;
+    border-radius: 10px;
     text-align: center;
     font-size: 20px;  
   }
@@ -28,4 +29,8 @@ form {
   margin-left: 25%;
   margin-right:25%;
   background: white;
+}
+
+.form-field{
+  background-color: aliceblue;
 }
